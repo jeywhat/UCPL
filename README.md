@@ -1,38 +1,40 @@
 # UnCerclePlusLoin
 
-WATRELOS Jérémy - STEENKISTE Jérémy
+WATRELOS Jérémy (Dev) - STEENKISTE Jérémy (Make Questions)
 
-## Présentation du jeu UnCerclePlusLoin
+## PRESENTATION
 
-UnCerclePlusLoin est un jeu point'n click modulable (fichier config.csv) de 2 à 4 Joueurs (le mode Entrainement est encore en phase de test, mais fonctionne). Le jeu est composé de 4 modes (Entrainement, 2 Joueurs, 3 Joueurs, 4 Joueurs).
-Le but du jeu est de bien répondre à un maximum de questions avant la moitié du temps imparti pour avoir un bonus temps et surtout gagner contre tes amis !
-Le plateau de jeu est composé de 36 questions sur 3 paliers et 6 matières (placée aléatoirement sur celui-ci).
--Le 1er palier possède des questions FACILE donnant 30 points (modifiable).
--Le 2eme palier possède des questions MOYEN donnant 40 points (modifiable).
--Le 3eme palier possède des questions DIFFICILE donnant 50 points (modifiable).
+**UnCerclePlusLoin** est un jeu point'n click modulable**¹** de 2 à 4 Joueurs. Vous pouvez néanmoins utiliser le mode Entrainement tout seul pour tester le jeu. 
+**¹** *Il y a un fichier config.csv qui permet de modifier les variables du jeu*
+### Modes
+* Entrainement
+* 2 Joueurs
+* 3 Joueurs
+*  4 Joueurs
+### But
+Répondre à un maximum de questions avant la moitié du temps imparti pour avoir un bonus temps et surtout gagner contre tes amis !
+### Le Plateau de Jeu
+ Le plateau de jeu est composé de 36 questions sur 3 paliers et 6 matières (placée aléatoirement sur celui-ci).
+* Le 1er palier possède des questions FACILE donnant 30 points (modifiable).
+* Le 2eme palier possède des questions MOYEN donnant 40 points (modifiable).
+* Le 3eme palier possède des questions DIFFICILE donnant 50 points (modifiable).
+
 Vous avez 30 secondes pour répondre à la question.
-La partie est composé de 20 questions (modifiable).
----
-L'aspect éducatif est représenté ici par la difficulté des paliers et l'apprentissage de nouvelles choses. 
-
-## Utilisation du jeu UnCerclePlusLoin
-
+La partie est composé de 20 questions modifiables**²**.
+**²**Il y a plusieurs fichiers dans ressources/{1~6} qui permet de modifier les différents paliers.
+## HOW TO
 Afin d'utiliser le projet, il doit être suffisant de taper les 
 commandes suivantes:
-./compile.sh            // lancer la compilation des fichiers
-                        // présents dans 'src' et création des 
-                        // fichiers '.class' dans 'classes'
 
-Comme certains binômes ont un projet en mode texte et un autre 
-en mode graphique, merci de préciser le nom des programmes à 
-passer en paramètre au script 'run.sh'
+> ./compile.sh
 
-./run.sh UnCerclePLusLoin (mode graphique)
+>./run.sh UnCerclePLusLoin
 
-Pour tous les projets: pensez à mettre l'ap.jar dans le répertoire 'lib' !
+## SCREENSHOTS
+```
+![](shots/screen1.png)
+```
+```
+![](shots/screen2.png)
+```
 
-Pour les projets en mode graphiques, placez les images dans le répertoire
-'ressources' sachant que son contenu est copié dans 'classes' lorsque 
-vous faites un 'run'.
-
-# UCPL
