@@ -1,0 +1,42 @@
+Configurer votre jeu;Valeur à modifier;Un Cercle Plus Loin – Le Jeu;Valeur Initiale
+*=============================*;*=================*;*======================================================================================*;*=========*
+Structure du jeu global :; ; ; 
+*=============================*;*=================*;*======================================================================================*;*=========*
+Question : points obtenus [Palier 1];30; ;30
+Question : points obtenus [Palier 2];40; ;40
+Question : points obtenus [Palier 3];50; ;50
+Nombres de questions / partie: ;21;[Note] : Si 4 joueurs => Nombre de questions par joueur = B5/(Nombre de Joueur) => 5 (car arrondi à l'entier inférieur).;21
+Le Timer en seconde / question :;30; ;30
+Timer : Point bonus (l.584);25;[Note] : C'est le maximum de point que l'on peut avoir avec le bonus temps.;25
+Activer la musique (oui/non);oui; ;oui
+Handicap :;0;(J1) [Note] : Défini le score/par joueur initialement;0
+ ;0;(J2);0
+ ;0;(J3);0
+ ;0;(J4);0
+*=============================*;*=================*;*======================================================================================*;*=========*
+Police du jeu :; ; ; 
+*=============================*;*=================*;*======================================================================================*;*=========*
+Pour Window :; ; ; 
+Polices utilisées :;Gentium Basic; ;Gentium Basic
+ ;Calibri Bold; ;Calibri Bold
+-----------------------------------------------------------;-----------------------------------;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------; 
+Taille 1ère Police :;15;[Note] : Taille pour la version du jeu / les numéros dans les cases du plateau / les lettres (A, B, C, D) cases réponses;15
+ ;19;[Note] : Taille pour les 4 réponses (A, B, C, D);19
+-----------------------------------------------------------;-----------------------------------;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------; 
+Taille 2ème Police :;20;[Note] : Taille pour le numéro de la question (dans la zone question);20
+ ;22;[Note] : Taille pour le score des joueurs / les questions restantes / Bonus temps;22
+ ;24;[Note] : Taille pour la question / Score TOTAL;24
+ ;25;[Note] : Taille pour l'affichage : BONNE REPONSE / MAUVAISE REPONSE / TEMPS ECOULE;25
+Pour Linux :; ; ; 
+Polices utilisées :;Gentium Basic; ;Gentium Basic
+ ;Berlin Sans FB; ;Berlin Sans FB
+-----------------------------------------------------------;-----------------------------------;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------; 
+Taille 1ère Police :;15;[Note] : Taille pour la version du jeu / les numéros dans les cases du plateau / les lettres (A, B, C, D) cases réponses;15
+ ;19;[Note] : Taille pour les 4 réponses (A, B, C, D);19
+-----------------------------------------------------------;-----------------------------------;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------; 
+Taille 2ème Police :;20;[Note] : Taille pour le numéro de la question (dans la zone question);20
+ ;22;[Note] : Taille pour le score des joueurs / les questions restantes / Bonus temps;22
+ ;24;[Note] : Taille pour la question / Score TOTAL;24
+ ;25;[Note] : Taille pour l'affichage : BONNE REPONSE / MAUVAISE REPONSE / TEMPS ECOULE;25
+ ; ; ; 
+Version :;1.0-Alpha | Niveau CM2; ; 
