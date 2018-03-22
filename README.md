@@ -31,10 +31,10 @@ commandes suivantes:
 >./run.sh UnCerclePLusLoin
 
 ## SCREENSHOTS
-```
+
 ![In Game](shots/screen1.png?raw=true)
-```
-```
+
+
 ![End Game](shots/screen2.png?raw=true)
-```
+
 
