@@ -32,9 +32,9 @@ commandes suivantes:
 
 ## SCREENSHOTS
 ```
-![](shots/screen1.png)
+![In Game](shots/screen1.png?raw=true)
 ```
 ```
-![](shots/screen2.png)
+![End Game](shots/screen2.png?raw=true)
 ```
 
